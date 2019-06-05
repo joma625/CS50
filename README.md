@@ -1,2 +1,2 @@
-# newGitTest
+Homework Assignments for CS50
 
