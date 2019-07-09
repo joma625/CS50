@@ -30,20 +30,20 @@ bitBitCount
 
 ## Why might `fopen` return `NULL` in `copy.c`?
 
-TODO
+It will return NULL if the file user is opening doesn't exist.
 
 ## Why is the third argument to `fread` always `1` in our code?
 
-TODO
+That is because we are going through every pixel.
 
 ## What value does `copy.c` assign to `padding` if `bi.biWidth` is `3`?
 
-TODO
+3
 
 ## What does `fseek` do?
 
-TODO
+It can change the offset/position a pointer.
 
 ## What is `SEEK_CUR`?
 
-TODO
+It is the current position of the file pointer.
